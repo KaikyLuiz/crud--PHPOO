@@ -1,0 +1,8 @@
+{
+    "name": "www/crud-phpoo",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
