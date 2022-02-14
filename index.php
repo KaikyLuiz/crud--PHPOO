@@ -21,7 +21,7 @@ require_once __DIR__ .'/vendor/autoload.php';
 
     <main>
       <section>
-        <a href="php/formulario.php">
+        <a href="formulario.php">
           <button class="btn btn-danger">adicionar</button>
         </a>
       </section>

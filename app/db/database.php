@@ -2,11 +2,12 @@
 
 namespace app\db;
 
+use PDO;
 use PDOException;
 
 class banco_de_dados{
-    const Host = 'db';
-    const nome = 'crud_phpoo';
+    const Host = 'localhost';
+    const nome = 'crud_php_oo';
     const User = 'root';
     const pass = '';
 
@@ -24,7 +25,7 @@ class banco_de_dados{
             
             $this->conexao_pdo = new PDO ('mysql:host='.self::Host.';dbname='.self::nome,self::User, self::pass);
 
-            $this->conexao_pdo->setAttribute (PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $this->conexao_pdo->setAttribute (PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
         }
         catch(PDOException $E){
