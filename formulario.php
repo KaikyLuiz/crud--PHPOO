@@ -83,9 +83,10 @@
     </div>
 
     <div class="form-group">
-            <label>Senha:</label> <input type="password" name="senha" minlength="6" required="required"><br>
+            <label>Senha:</label> <input type="password" name="senha" id="mostrar_senha" minlength="6" required="required"><br>
 
-            <input type="checkbox" name="mostrar_senha"> <label>mostar senha</label>
+            <input type="checkbox"  onclick = "mostrarsenha()" > <label>mostrar senha</label>
+            <script type="text/javascript" src="js/mostrar_senha.js"></script>
     </div>
 
            <div>

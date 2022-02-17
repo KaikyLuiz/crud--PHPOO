@@ -15,8 +15,8 @@ if (isset($_POST['enviar'])){
     $obj_cadastro->cep = $_POST['cep'] ;
     $obj_cadastro->lougradouro = $_POST['logradouro'] ;
     $obj_cadastro->n_residencia = $_POST['n_residencia'] ;
-    $obj_cadastro->nome = $_POST['email'] ;
-    $obj_cadastro->nome = $_POST['senha'] ;            
+    $obj_cadastro->email = $_POST['email'] ;
+    $obj_cadastro->senha = $_POST['senha'] ;            
 
 }
 
